@@ -1,0 +1,5 @@
+analise = input("Digite seu nome: ")
+print("Olá seu nome em maiusculas é", analise.upper())
+print("Olá seu nome em minusculas é", analise.lower())
+print("Seu nome tem", len(analise) - analise.count(" "), "letras")
+print("Seu primeiro nome é", analise.split()[0])
